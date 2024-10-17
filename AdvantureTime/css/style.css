@@ -1,0 +1,159 @@
+* {
+	font-family:"Cascadia Code";
+	text-align:center;
+}
+
+h1 {
+	color:red; 
+	font-family:"STZhongsong"; 
+	text-align:center;
+	margin-left:30%;
+	margin-right:30%;
+	background-position:center;
+	background-color:white;
+	border: 3px inset black;
+}
+
+header nav a {
+	text-decoration:none; 
+	background-color:orange; 
+	color:black; 
+	border:5px outset yellow; 
+	width:18.4%; 
+	margin:auto;
+	text-align: center; 
+	display:inline-block; 
+	padding:0.2em;
+}
+
+header nav a:hover {
+	background-color:yellow; 
+	border:5px inset orange; 
+	color:black;
+}
+	
+h2 { 
+	font-family:"STZhongsong"; 
+	text-align:center;
+	background-color: white;
+	margin-left:20%;
+	margin-right:20%;
+	color:black;
+	border:2px solid black;
+}
+
+body {
+	background-color:#F98EB0; 
+	background-image:url("../images/AdventureTimeBackground.jpg");  /* image was obtained from https://wallpaperaccess.com/adventure-time */
+	background-repeat:no-repeat; 
+	background-position:center; 
+	background-size:cover;
+}
+
+
+img {
+	float:left;
+	border:2px solid black;
+}
+
+@media only screen and (max-width: 480px) {
+	body {margin:0;}
+	#wrapper {width:auto;}
+	#content {margin-top:-.5em;}
+	figure {
+		float:none;
+		padding:0;
+		margin:0;
+		text-align:center;
+	}
+	main nav a {
+		display:block;
+		font-size:120%;
+		margin:0;
+		border-bottom:2px ridge black
+	}
+}
+#welcome {
+	background-color:rgb(255, 255, 255, 0.5);
+}
+
+#finn {
+	display:flex;
+	background-color:#1AA6DB;
+}
+
+#jake {
+	display:flex;
+	background-color:#FEBF0F;
+}
+
+#princess-bubblegum {
+	display:flex;
+	background-color:#F196FA;
+}
+
+#marceline {
+	display:flex;
+	background-color:red;
+}
+
+#bmo {
+	display:flex;
+	background-color:#04C0AC;
+}
+
+#ice-king {
+	display:flex;
+	background-color:#8DEFFE;
+}
+
+#earl-of-lemongrab {
+	display:flex;
+	background-color:#FAF519;
+}
+
+#flame-princess {
+	display:flex;
+	background-color:#D390FA;
+}
+
+#form {
+	background-image: linear-gradient(to bottom, #e7857e, #f4987b, #fcac79, #ffc27b, #ffd982, #f3df83, #e5e587, #d7eb8e, #bfe08b, #a8d589, #92ca87, #7ebe85);
+	border: solid black;
+	margin-top: 2%;
+}
+
+#contacts {
+	color:white;
+	background-color:rgb(255, 179, 179, 0.5);
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:2.5%;
+	border:2px solid black;
+}
+
+#faq {
+	background-color:rgb(255, 179, 179, 0.5);
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:2.5%;
+	border:2px solid black;
+}
+
+.colsh {
+	float:left; 
+	width:24.7%; 
+	text-align:center;
+	border:1px solid black;
+	margin:auto;
+}
+
+.colsm {
+	float:left; 
+	width:32%; 
+	text-align:center;
+	border:1px inset black;
+	margin:auto;
+	color:white;
+	background-image: radial-gradient(circle, #f9d21c, #ffb22e, #ff9346, #ff785d, #f36371);
+}
